@@ -6,8 +6,27 @@ import cards from './data/cards.json';
 
 export default function Home() {
   return (
-    <Box sx={{ p: 7 }}>
-      <Grid container spacing={4}>
+    <Box
+      sx={{
+        p: 3,
+        minHeight: '100vh',
+        backgroundImage: 'url("/images/backImage.png")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      <Box
+        sx={{
+          pb: 10,
+          fontSize: '20px',
+          fontWeight: 'bold',
+          textAlign: 'center',
+        }}
+      >
+        Ushi's Nest
+      </Box>
+      <Grid container spacing={3}>
         {cards.map((card) => (
           <ContentsCard
             key={card.id}
