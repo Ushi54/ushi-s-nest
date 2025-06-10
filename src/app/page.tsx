@@ -33,6 +33,7 @@ export default function Home() {
             title={card.title}
             description={card.description}
             image={card.image}
+            url={card.url}
           />
         ))}
       </Grid>

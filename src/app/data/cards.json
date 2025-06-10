@@ -1,63 +1,72 @@
-
 [
     {
       "id": 1,
       "title": "ドラム",
       "description": "フリーのドラマー。ライブや演奏動画の投稿などを中心に活動してます。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "https://www.youtube.com/@drumcover9606"
     },
     {
       "id": 2,
       "title": "エンジニア",
       "description": "本業はエンジニア。BEはJava、FEはReact(Next.js)のフルスタックエンジニアになることが目標。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "https://github.com/Ushi54"
     },
     {
       "id": 3,
       "title": "ブログ",
       "description": "気が向いた時に執筆してます。人生の備忘録的な使い方。凝り性だから気軽にあげることを意識してます。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "https://ushilog54.com/"
     },
     {
       "id": 4,
       "title": "筋トレ/ヨガ",
       "description": "メンタルヘルスも兼ねて、体を作るために宅トレを、心身の疲れを取るためにヨガを習慣にしています。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "/fitness"
     },
     {
       "id": 5,
       "title": "写真",
       "description": "EOS Kiss Mで写真撮って、カラグレしてインスタにあげてます。完全なる自己満。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "https://www.instagram.com/ushi5432_photograph?igsh=MW5oMXgwanF4eXAwZw%3D%3D&utm_source=qr"
     },
     {
       "id": 6,
       "title": "ドライブ",
       "description": "休日に時間がある時は基本ドライブしてます。愛車はCVTのzc32s。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "/drive"
     },
     {
       "id": 7,
       "title": "コーヒー",
       "description": "ハンドドリップコーヒーの香りと作り上げる工程が大好き。行く先々で豆を購入して、主に休日のおやつタイムに淹れてます。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "https://www.instagram.com/ushi5432_cafe?igsh=ejQzamF3Mm44eXBk&utm_source=qr"
     },
     {
       "id": 8,
       "title": "ゲーム",
       "description": "これもちょっとした生きがい。ほぼ、モンハン。マイクラやテラリアも好きです。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "/game"
     },
     {
       "id": 9,
       "title": "ガジェット",
       "description": "自部屋の見た目や機能性にこだわってます。お気に入りに囲まれて過ごしています。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/IMG_1951.JPG",
+      "url": "/gadget"
     },
     {
       "id": 10,
       "title": "ジャーナル/瞑想",
       "description": "思考の整理、自己理解、集中力向上や人生の目標の再確認など、自分自身を整えるためにほぼ毎日行っています。",
-      "image": "/images/ushi4.JPG"
+      "image": "/images/ushi4.JPG",
+      "url": "/journal"
     }
 ]
