@@ -1,72 +1,105 @@
 [
-    {
-      "id": 1,
-      "title": "ドラム",
-      "description": "フリーのドラマー。ライブや演奏動画の投稿などを中心に活動してます。",
-      "image": "/images/drums.JPG",
-      "url": "https://www.youtube.com/@drumcover9606"
-    },
-    {
-      "id": 2,
-      "title": "エンジニア",
-      "description": "本業はエンジニア。BEはJava、FEはReact(Next.js)のフルスタックエンジニアになることが目標。",
-      "image": "/images/drums.JPG",
-      "url": "https://github.com/Ushi54"
-    },
-    {
-      "id": 3,
-      "title": "ブログ",
-      "description": "気が向いた時に執筆してます。人生の備忘録的な使い方。凝り性だから気軽にあげることを意識してます。",
-      "image": "/images/drums.JPG",
-      "url": "https://ushilog54.com/"
-    },
-    {
-      "id": 4,
-      "title": "筋トレ/ヨガ",
-      "description": "メンタルヘルスも兼ねて、体を作るために宅トレを、心身の疲れを取るためにヨガを習慣にしています。",
-      "image": "/images/drums.JPG",
-      "url": "/fitness"
-    },
-    {
-      "id": 5,
-      "title": "写真",
-      "description": "EOS Kiss Mで写真撮って、カラグレしてインスタにあげてます。完全なる自己満。",
-      "image": "/images/drums.JPG",
-      "url": "https://www.instagram.com/ushi5432_photograph?igsh=MW5oMXgwanF4eXAwZw%3D%3D&utm_source=qr"
-    },
-    {
-      "id": 6,
-      "title": "ドライブ",
-      "description": "休日に時間がある時は基本ドライブしてます。愛車はCVTのzc32s。",
-      "image": "/images/drums.JPG",
-      "url": "/drive"
-    },
-    {
-      "id": 7,
-      "title": "コーヒー",
-      "description": "ハンドドリップコーヒーの香りと作り上げる工程が大好き。行く先々で豆を購入して、主に休日のおやつタイムに淹れてます。",
-      "image": "/images/drums.JPG",
-      "url": "https://www.instagram.com/ushi5432_cafe?igsh=ejQzamF3Mm44eXBk&utm_source=qr"
-    },
-    {
-      "id": 8,
-      "title": "ゲーム",
-      "description": "これもちょっとした生きがい。ほぼ、モンハン。マイクラやテラリアも好きです。",
-      "image": "/images/drums.JPG",
-      "url": "/game"
-    },
-    {
-      "id": 9,
-      "title": "ガジェット",
-      "description": "自部屋の見た目や機能性にこだわってます。お気に入りに囲まれて過ごしています。",
-      "image": "/images/gadget.JPG",
-      "url": "/gadget"
-    },
-    {
-      "id": 10,
-      "title": "ジャーナル/瞑想",
-      "description": "思考の整理、自己理解、集中力向上や人生の目標の再確認など、自分自身を整えるためにほぼ毎日行っています。",
-      "image": "/images/drums.JPG",
-      "url": "/journal"
-    }
+  {
+    "id": 1,
+    "title": "ドラム",
+    "description": "趣味でドラムを演奏。YouTubeやSNSでショート動画を公開中。",
+    "image": "/images/drums.JPG",
+    "buttons": [
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@drumcover9606"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/drumcover"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "エンジニア",
+    "description": "JavaとReactを使うフルスタックエンジニアを目指して奮闘中。",
+    "image": "/images/engineer.JPG",
+    "buttons": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Ushi54"
+      },
+      {
+        "name": "Portfolio",
+        "url": "https://portfolio.ushi54.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "ブログ",
+    "description": "人生の備忘録としてブログを執筆。気軽に更新しています。",
+    "image": "/images/blog.JPG",
+    "buttons": [
+      {
+        "name": "ブログを見る",
+        "url": "https://ushilog54.com/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "筋トレ/ヨガ",
+    "description": "宅トレで体を鍛え、ヨガで心身をリフレッシュ。",
+    "image": "/images/running.JPG",
+    "buttons": [
+      {
+        "name": "フィットネス情報",
+        "url": "/fitness"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "写真/カメラ",
+    "description": "EOS Kiss Mで撮影した写真をインスタに投稿。自己満足の世界。",
+    "image": "/images/camera.jpeg",
+    "buttons": [
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/ushi5432_photograph?igsh=MW5oMXgwanF4eXAwZw%3D%3D&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "ドライブ",
+    "description": "愛車のzc32sで休日はドライブを満喫。",
+    "image": "/images/drive.PNG",
+    "url": "/drive"
+  },
+  {
+    "id": 7,
+    "title": "コーヒー",
+    "description": "ハンドドリップで淹れるコーヒーが至福のひととき。",
+    "image": "/images/coffee.JPG",
+    "url": "https://www.instagram.com/ushi5432_cafe?igsh=ejQzamF3Mm44eXBk&utm_source=qr"
+  },
+  {
+    "id": 8,
+    "title": "ゲーム",
+    "description": "モンハンを中心に、マイクラやテラリアも楽しんでいます。",
+    "image": "/images/gammingPC.JPG",
+    "url": "/game"
+  },
+  {
+    "id": 9,
+    "title": "ガジェット",
+    "description": "機能性とデザインにこだわったお気に入りのアイテムに囲まれた生活。",
+    "image": "/images/gadget.JPG",
+    "url": "/gadget"
+  },
+  {
+    "id": 10,
+    "title": "ジャーナル/瞑想",
+    "description": "毎日のジャーナルと瞑想で自己理解と集中力を高めています。",
+    "image": "/images/journal.JPG",
+    "url": "/journal"
+  }
 ]
