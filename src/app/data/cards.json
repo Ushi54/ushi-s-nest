@@ -10,8 +10,20 @@
         "url": "https://www.youtube.com/@drumcover9606"
       },
       {
+        "name": "foriio",
+        "url": "https://www.foriio.com/ushi5555"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/@ushi5432"
+      },
+      {
         "name": "Instagram",
-        "url": "https://www.instagram.com/drumcover"
+        "url": "https://www.instagram.com/ushi5432_drums/#"
+      },
+      {
+        "name": "X",
+        "url": "https://x.com/ushiushi_drums"
       }
     ]
   },
@@ -26,8 +38,8 @@
         "url": "https://github.com/Ushi54"
       },
       {
-        "name": "Portfolio",
-        "url": "https://portfolio.ushi54.com"
+        "name": "PortfolioSite(~2022)",
+        "url": "https://ushi54.github.io/K.H_Portfolio/"
       }
     ]
   },
@@ -92,7 +104,7 @@
     "id": 9,
     "title": "ガジェット",
     "description": "機能性とデザインにこだわったお気に入りのアイテムに囲まれた生活。",
-    "image": "/images/gadget.JPG",
+    "image": "/images/gadgets.JPG",
     "url": "/gadget"
   },
   {
