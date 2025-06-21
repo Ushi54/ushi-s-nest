@@ -66,24 +66,60 @@ export default function ContentsCard({ title, description, image, buttons }: Con
       </Grid>
 
       {/* モーダル */}
-      <Dialog open={open} onClose={handleClose}>
+      <Dialog open={open} onClose={handleClose} PaperProps={{
+        sx: {
+          borderRadius: {
+            xs: '20px',
+            sm: '20px',
+            md: '20px',
+          },
+          maxWidth: {
+            xs: '90%',
+            sm: '40%',
+            md: '40%',
+          },
+          width: '100%',
+          maxHeight: '90vh',
+          overflowY: 'auto',
+          boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+          backgroundColor: 'rgba(255, 255, 255, 0.9)',
+          backdropFilter: 'blur(10px)',
+          p: 2,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          textAlign: 'center',
+        }
+      }}>
         <DialogTitle>{title}</DialogTitle>
         <DialogContent>
-          <Typography variant="body1" sx={{ mb: 2 }}>
-            {description}
-          </Typography>
-          {buttons.map((button, index) => (
-            <Button
-              key={index}
-              variant="contained"
-              color="primary"
-              href={button.url}
-              target="_blank"
-              sx={{ textTransform: 'none', mb: 1 }}
-            >
-              {button.name}
-            </Button>
-          ))}
+          <Box
+            sx={{
+              display: 'flex',
+              flexFlow: 'column',
+              justifyContent: 'center',
+              gap: 2,
+              mb: 2,
+            }}>
+            {buttons.map((button, index) => (
+              <Button
+                key={index}
+                variant="contained"
+                href={button.url}
+                target="_blank"
+                sx={{
+                  textTransform: 'none', backgroundColor: '#80AAA6', color: '#fff', '&:hover': { backgroundColor: '#D2E2E0' }, width: {
+                    xs: '50vw',
+                    sm: '40vw',
+                    md: '30vw',
+                  }
+                }}
+              >
+                {button.name}
+              </Button>
+            ))}
+          </Box>
         </DialogContent>
       </Dialog>
     </>

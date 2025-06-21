@@ -64,7 +64,7 @@ export default function Home() {
       </Box>
 
       {/* コンテンツ部分 */}
-      <Grid container spacing={3} sx={{ pt: { xs: 20, sm: 25, md: 25 }, pb: 3 }}>
+      <Grid container spacing={3} sx={{ pt: { xs: 16, sm: 21, md: 21 }, pb: 3 }}>
         {cards.map((card) => (
           <ContentsCard
             key={card.id}
