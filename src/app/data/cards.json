@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "ドラム",
-    "description": "趣味でドラムを演奏。YouTubeやSNSでショート動画を公開中。",
+    "description": "趣味でドラムを演奏。YouTubeや各SNSで主にショート動画を公開中。",
     "image": "/images/drums.JPG",
     "buttons": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "name": "PortfolioSite(~2022)",
-        "url": "https://ushi54.github.io/K.H_Portfolio/"
+        "url": "@"
       }
     ]
   },
@@ -50,7 +50,7 @@
     "image": "/images/blog.JPG",
     "buttons": [
       {
-        "name": "ブログを見る",
+        "name": "USHILOG",
         "url": "https://ushilog54.com/"
       }
     ]
