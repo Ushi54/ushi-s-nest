@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "ドラム",
-    "description": "趣味でドラムを演奏。YouTubeや各SNSで主にショート動画を公開中。",
+    "description": "趣味でドラムやってます。YouTubeや各SNSで主にショート動画を公開中。",
     "image": "/images/drums.JPG",
     "buttons": [
       {
@@ -36,10 +36,6 @@
       {
         "name": "GitHub",
         "url": "https://github.com/Ushi54"
-      },
-      {
-        "name": "PortfolioSite(~2022)",
-        "url": "@"
       }
     ]
   },
@@ -57,61 +53,18 @@
   },
   {
     "id": 4,
-    "title": "筋トレ/ヨガ",
-    "description": "宅トレで体を鍛え、ヨガで心身をリフレッシュ。",
-    "image": "/images/running.JPG",
-    "buttons": [
-      {
-        "name": "フィットネス情報",
-        "url": "/fitness"
-      }
-    ]
-  },
-  {
-    "id": 5,
     "title": "写真/カメラ",
     "description": "EOS Kiss Mで撮影した写真をインスタに投稿。自己満足の世界。",
     "image": "/images/camera.jpeg",
     "buttons": [
       {
-        "name": "Instagram",
+        "name": "Instagram (photograph)",
         "url": "https://www.instagram.com/ushi5432_photograph?igsh=MW5oMXgwanF4eXAwZw%3D%3D&utm_source=qr"
+      },
+      {
+        "name": "Instagram (cafe)",
+        "url": "https://www.instagram.com/ushi5432_cafe?igsh=ejQzamF3Mm44eXBk&utm_source=qr"
       }
     ]
-  },
-  {
-    "id": 6,
-    "title": "ドライブ",
-    "description": "愛車のzc32sで休日はドライブを満喫。",
-    "image": "/images/drive.PNG",
-    "url": "/drive"
-  },
-  {
-    "id": 7,
-    "title": "コーヒー",
-    "description": "ハンドドリップで淹れるコーヒーが至福のひととき。",
-    "image": "/images/coffee.JPG",
-    "url": "https://www.instagram.com/ushi5432_cafe?igsh=ejQzamF3Mm44eXBk&utm_source=qr"
-  },
-  {
-    "id": 8,
-    "title": "ゲーム",
-    "description": "モンハンを中心に、マイクラやテラリアも楽しんでいます。",
-    "image": "/images/gammingPC.JPG",
-    "url": "/game"
-  },
-  {
-    "id": 9,
-    "title": "ガジェット",
-    "description": "機能性とデザインにこだわったお気に入りのアイテムに囲まれた生活。",
-    "image": "/images/gadgets.JPG",
-    "url": "/gadget"
-  },
-  {
-    "id": 10,
-    "title": "ジャーナル/瞑想",
-    "description": "毎日のジャーナルと瞑想で自己理解と集中力を高めています。",
-    "image": "/images/journal.JPG",
-    "url": "/journal"
   }
 ]

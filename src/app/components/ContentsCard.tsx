@@ -34,7 +34,7 @@ export default function ContentsCard({ title, description, image, buttons }: Con
       >
         <Card
           sx={{
-            height: '350px',
+            height: '330px',
             borderRadius: '20px',
           }}
         >
@@ -51,10 +51,11 @@ export default function ContentsCard({ title, description, image, buttons }: Con
             />
             <CardContent
               sx={{
-                height: '150px',
+                height: '180px',
+                textAlign: 'center',
               }}
             >
-              <Typography gutterBottom variant="h6" component="div">
+              <Typography gutterBottom variant="h6" component="div" mb={2}>
                 {title}
               </Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -75,7 +76,7 @@ export default function ContentsCard({ title, description, image, buttons }: Con
           },
           maxWidth: {
             xs: '90%',
-            sm: '40%',
+            sm: '60%',
             md: '40%',
           },
           width: '100%',
