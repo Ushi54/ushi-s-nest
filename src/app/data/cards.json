@@ -2,68 +2,64 @@
   {
     "id": 1,
     "title": "ドラム",
-    "description": "趣味でドラムやってます。YouTubeや各SNSで主にショート動画を公開中。",
+    "description": "趣味でドラムやってます。YouTubeや各SNSで主にショート動画を公開中",
     "image": "/images/drums.JPG",
     "buttons": [
       {
-        "name": "YouTube",
-        "url": "https://www.youtube.com/@drumcover9606"
+        "name": "foriio",
+        "url": "https://www.foriio.com/ushi5555",
+        "intro": "コラボ動画や出演ライブなどの実績をまとめています。"
       },
       {
-        "name": "foriio",
-        "url": "https://www.foriio.com/ushi5555"
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@drumcover9606",
+        "intro": "ショート、フル動画は全てここに投稿しています。"
       },
       {
         "name": "TikTok",
-        "url": "https://www.tiktok.com/@ushi5432"
+        "url": "https://www.tiktok.com/@ushi5432",
+        "intro": "主に叩いてみたのショート動画を載せています。"
       },
       {
         "name": "Instagram",
-        "url": "https://www.instagram.com/ushi5432_drums/#"
+        "url": "https://www.instagram.com/ushi_5432/#",
+        "intro": "趣味の写真や日常を気ままに投稿しています。"
       },
       {
-        "name": "X",
-        "url": "https://x.com/ushiushi_drums"
+        "name": "X(旧Twitter)",
+        "url": "https://x.com/ushiushi_drums",
+        "intro": "基本自由に投稿。告知、趣味、日常など。"
       }
     ]
   },
   {
     "id": 2,
-    "title": "エンジニア",
-    "description": "JavaとReactを使うフルスタックエンジニアを目指して奮闘中。",
-    "image": "/images/engineer.JPG",
+    "title": "プログラミング",
+    "description": "本業。今はspringbootとNext.jsがメイン.",
+    "image": "/images/keyboard.JPG",
     "buttons": [
       {
         "name": "GitHub",
-        "url": "https://github.com/Ushi54"
+        "url": "https://github.com/Ushi54",
+        "intro": "ポートフォリオ。ソース管理はここで。"
+      },
+      {
+        "name": "Ushi's Nest",
+        "url": "#",
+        "intro": "自分のコンテンツや各種SNSをまとめたサイト。"
       }
     ]
   },
   {
     "id": 3,
     "title": "ブログ",
-    "description": "人生の備忘録としてブログを執筆。気軽に更新しています。",
+    "description": "日々の気づきやメモなど、きままに更新しています。",
     "image": "/images/blog.JPG",
     "buttons": [
       {
         "name": "USHILOG",
-        "url": "https://ushilog54.com/"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "写真/カメラ",
-    "description": "EOS Kiss Mで撮影した写真をインスタに投稿。自己満足の世界。",
-    "image": "/images/camera.jpeg",
-    "buttons": [
-      {
-        "name": "Instagram (photograph)",
-        "url": "https://www.instagram.com/ushi5432_photograph?igsh=MW5oMXgwanF4eXAwZw%3D%3D&utm_source=qr"
-      },
-      {
-        "name": "Instagram (cafe)",
-        "url": "https://www.instagram.com/ushi5432_cafe?igsh=ejQzamF3Mm44eXBk&utm_source=qr"
+        "url": "https://ushilog54.com/",
+        "intro": "日々の気づきやメモなど、きままに更新しています。"
       }
     ]
   }
