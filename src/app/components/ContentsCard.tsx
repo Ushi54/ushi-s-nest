@@ -7,7 +7,7 @@ interface ContentsCardProps {
   title: string;
   description: string;
   image: string;
-  buttons: { name: string; url: string }[];
+  buttons: { name: string; url: string; intro: string }[];
 }
 
 export default function ContentsCard({ title, description, image, buttons }: ContentsCardProps) {
@@ -104,21 +104,30 @@ export default function ContentsCard({ title, description, image, buttons }: Con
               mb: 2,
             }}>
             {buttons.map((button, index) => (
-              <Button
-                key={index}
-                variant="contained"
-                href={button.url}
-                target="_blank"
-                sx={{
-                  textTransform: 'none', backgroundColor: '#80AAA6', color: '#fff', '&:hover': { backgroundColor: '#D2E2E0' }, width: {
+              <>
+                <Typography sx={{
+                  width: {
                     xs: '50vw',
                     sm: '40vw',
                     md: '30vw',
                   }
-                }}
-              >
-                {button.name}
-              </Button>
+                }}>{button.intro}</Typography>
+                <Button
+                  key={index}
+                  variant="contained"
+                  href={button.url}
+                  target="_blank"
+                  sx={{
+                    textTransform: 'none', backgroundColor: '#80AAA6', color: '#fff', '&:hover': { backgroundColor: '#D2E2E0' }, width: {
+                      xs: '50vw',
+                      sm: '40vw',
+                      md: '30vw',
+                    }
+                  }}
+                >
+                  {button.name}
+                </Button>
+              </>
             ))}
           </Box>
         </DialogContent>
