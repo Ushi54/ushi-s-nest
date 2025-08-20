@@ -110,7 +110,8 @@ export default function ContentsCard({ title, description, image, buttons }: Con
                     xs: '50vw',
                     sm: '40vw',
                     md: '30vw',
-                  }
+                  },
+                  mb: -1
                 }}>{button.intro}</Typography>
                 <Button
                   key={index}
@@ -118,7 +119,7 @@ export default function ContentsCard({ title, description, image, buttons }: Con
                   href={button.url}
                   target="_blank"
                   sx={{
-                    textTransform: 'none', backgroundColor: '#80AAA6', color: '#fff', '&:hover': { backgroundColor: '#D2E2E0' }, width: {
+                    textTransform: 'none', backgroundColor: '#80AAA6', color: '#fff', '&:hover': { backgroundColor: '#D2E2E0' }, mb: 3, width: {
                       xs: '50vw',
                       sm: '40vw',
                       md: '30vw',

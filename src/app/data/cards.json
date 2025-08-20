@@ -2,51 +2,51 @@
   {
     "id": 1,
     "title": "ドラム",
-    "description": "趣味でドラムやってます。YouTubeや各SNSで主にショート動画を公開中。",
+    "description": "趣味でドラムやってます。YouTubeや各SNSで主にショート動画を公開中",
     "image": "/images/drums.JPG",
     "buttons": [
       {
         "name": "foriio",
         "url": "https://www.foriio.com/ushi5555",
-        "intro": "コラボ動画や出演ライブなどの実績がまとまっています。"
+        "intro": "コラボ動画や出演ライブなどの実績をまとめています。"
       },
       {
         "name": "YouTube",
         "url": "https://www.youtube.com/@drumcover9606",
-        "intro": "コラボ動画や出演ライブなどの実績がまとまっています。"
+        "intro": "ショート、フル動画は全てここに投稿しています。"
       },
       {
         "name": "TikTok",
         "url": "https://www.tiktok.com/@ushi5432",
-        "intro": "コラボ動画や出演ライブなどの実績がまとまっています。"
+        "intro": "主に叩いてみたのショート動画を載せています。"
       },
       {
         "name": "Instagram",
         "url": "https://www.instagram.com/ushi_5432/#",
-        "intro": "コラボ動画や出演ライブなどの実績がまとまっています。"
+        "intro": "趣味の写真や日常を気ままに投稿しています。"
       },
       {
         "name": "X(旧Twitter)",
         "url": "https://x.com/ushiushi_drums",
-        "intro": "コラボ動画や出演ライブなどの実績がまとまっています。"
+        "intro": "基本自由に投稿。告知、趣味、日常など。"
       }
     ]
   },
   {
     "id": 2,
     "title": "プログラミング",
-    "description": "本業。springbootとNext.jsがメイン.",
-    "image": "/images/engineer.JPG",
+    "description": "本業。今はspringbootとNext.jsがメイン.",
+    "image": "/images/keyboard.JPG",
     "buttons": [
       {
         "name": "GitHub",
         "url": "https://github.com/Ushi54",
-        "intro": "コラボ動画や出演ライブなどの実績がまとまっています。"
+        "intro": "ポートフォリオ。ソース管理はここで。"
       },
       {
         "name": "Ushi's Nest",
         "url": "#",
-        "intro": "コラボ動画や出演ライブなどの実績がまとまっています。"
+        "intro": "自分のコンテンツや各種SNSをまとめたサイト。"
       }
     ]
   },
@@ -59,7 +59,7 @@
       {
         "name": "USHILOG",
         "url": "https://ushilog54.com/",
-        "intro": "コラボ動画や出演ライブなどの実績がまとまっています。"
+        "intro": "日々の気づきやメモなど、きままに更新しています。"
       }
     ]
   }
