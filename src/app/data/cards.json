@@ -36,7 +36,7 @@
     "id": 2,
     "title": "プログラミング",
     "description": "本業。今はspringbootとNext.jsがメイン.",
-    "image": "/images/keyboard.JPG",
+    "image": "/images/keyboard.jpg",
     "buttons": [
       {
         "name": "GitHub",
